@@ -1,0 +1,65 @@
+html{
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    color:aqua;
+    background-color: black;
+}
+h4{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:30px;
+
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+.first{
+    font-weight: normal;
+}
+.second{
+    font-weight: bold;
+
+}
+.third{
+    font-style: normal;
+}
+.fourth{
+    font-style: italic;
+}
+.fith{
+    letter-spacing: normal;
+}
+.sixth{
+    letter-spacing: .3em;
+}
+.seventh{
+    letter-spacing: -.06em;
+}
+.eighth{
+    text-decoration: none;
+}
+.nineth{
+    text-decoration: underline;
+}
+.tenth{
+    text-decoration: line-through;
+}
+.eleventh{
+    text-decoration: overline;
+}
+.twelevth{
+    text-transform: none;
+}
+.thirtenth{
+    text-transform: uppercase;
+}
+.fourtenth{
+    text-transform: lowercase;
+}
+.fiftenth{
+    text-transform: capitalize;
+}
