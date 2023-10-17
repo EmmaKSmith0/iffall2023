@@ -162,7 +162,7 @@
       <p>Media Queries do not replace your default styles, they <em>add</em> to them. <strong>DO NOT</strong> define all your styles for one width, then use a media query to "start over again" for a different width. That's a recipe for confusion and massive repetition in your stylesheet. Instead, start with the rules that apply everywhere, and then add media queries <strong>ONLY</strong> to selectively provide additional rules for the elements that need them. I find it easiest to keep my media queries close to the primary elements they modify in my stylesheet. "Here are the styles for element X, immediately followed by a couple additional styles that apply to the same element at large widths."</p>
 
       <p>For various reasons, many designers find it easiest to take a <dfn>mobile-first</dfn> approach to building responsive pages. That is, style the page for mobile, then 'grow' the width of the browser a bit, see what starts to have problems visually, and create media queries to address those problems, until you've reached a full-width layout. This approach usually uses <code>@media (min-width)</code> conditions, i.e. "When the window is <em>at least</em> this wide, apply these additional styles." Other designers prefer <dfn>desktop-first</dfn> approach, where you build the full complexity of the page first, then use <code> @media (max-width)</code> conditions to selectively simplify things as the page-width decreases. Read <em>max-width</em> as "When the page is <em>no larger than</em> this wide, apply these rules." I prefer the first approach personally, but either works. However, avoid doing both at the same time &mdash; this is often a recipe for confusion and frustration!</p>
-
+    e
     </section>
 
   </article>
