@@ -41,8 +41,6 @@ margin-right: auto;
 .nutrition{
   font-size: 9pt;
   color: rgb(255, 249, 241);
-  /* border: 7px solid rgb(73, 52, 27);
-  background-color: rgb(118, 94, 65) */
 }
 header{
   background-image:url("../images/fettuccine-alfredo-recipe-2.jpg"); 
@@ -113,19 +111,13 @@ h7{
 }
 @media(max-width:400px){
   .nutrition{
-  margin-right: 15%;
-  }
+    margin-right: 7%;
+    margin-left: 6%;
 }
-
-/* .image_up{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
-/* .images li{
-  display: block;x
+  }
 
 
-} */
+
 .final_up{
   display: grid;
   grid-template-columns: 1fr 1fr;
