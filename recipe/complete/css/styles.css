@@ -341,14 +341,14 @@ footer{
     /* margin: auto; */
    
   }
+
  
  
- 
-  p{
+   .intro p {
    width: 75%;
   }
   @media(max-width: 600px){
-    p{
+    .intro p {
       width: 100%;
     
      }
