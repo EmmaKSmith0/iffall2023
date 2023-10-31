@@ -1,0 +1,275 @@
+a#btn_insta{
+	display: block;
+  font-family: Agbalumo;
+	
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+        text-decoration: none;
+				margin-top: 75px;
+				padding-top: 8px;
+      text-align: center;
+				font-size: 50px;
+        transform-style: preserve-3d;
+				transition: all .2s;
+        background: linear-gradient(to right, #feda75 , #fa7e1e, #d62976, #962fbf , #4f5bd5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+a#btn_insta:after{
+  font-family: FontAwesome;
+  text-align: center;
+  margin-left: -174px;
+  width: 100px;
+ height: 100px;
+  position: absolute;
+  border-radius: 5px;
+  content: "\f16d";
+  transform-origin: center bottom;
+  transform: rotateX(90deg);
+  size: 50px;
+background: linear-gradient(to right, #feda75 , #fa7e1e, #d62976, #962fbf , #4f5bd5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+a#btn_insta:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%)
+}
+a#btn_apple{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 1px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+   text-align: center;
+    font-size: 60px;
+     color: white;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+   transition-timing-function: ease-in;
+
+  }
+
+a#btn_apple:hover {
+ width: 200px;
+ filter: invert(70%)}
+ a#btn_lyft{
+  display: block;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  color: #FF00BF;  
+  text-align: center;
+  font-size: 60px;
+  transition: all 2s;
+ }
+ a#btn_lyft:hover{
+  transform: rotateY(180deg);
+  box-shadow: 2px 2px 4px #000000;
+  color: 	#11111F;
+ }
+a#btn_nike{
+  display: block;
+  width: 141px;
+  height: 119px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  transition: all 3s;
+  color: black;
+}
+a#btn_nike:hover{
+  transform: rotateX(360deg);
+    color: white;
+    background-color: black;
+}
+
+.img{
+  display: block;
+  width: 100%;
+}
+a#btn_cn{
+  display: block;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  margin-left: 20px;
+ transition: all 3s;
+}
+a#btn_cn:hover{
+  rotate: 360deg;
+}
+a#btn_oldnavy{
+  display: block;
+  width: 200px;
+  height: 65.73px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 75px;
+  margin-left: 25px;
+  box-shadow:  0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+}
+a#btn_oldnavy:hover{
+  box-shadow: 2px 1px 30px 15px #003764;
+  color: white;
+  
+}
+a#btn_pottermore{
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin-right: 2px;
+  margin-left: -22px;
+  margin-top: 57px;
+opacity: 1;
+position: relative;
+
+}
+a#btn_pottermore:after {
+  top: 0%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+content: "\f0e7 \f72b \f6e8";
+  border-radius: 5px;
+  transform: rotateX(90deg)translateY(100%);;
+  transform-origin: left top;
+  transform-style: preserve-3d;
+  transition: all 3s;
+  font-family: FontAwesome;
+ 
+  
+  color: black;
+  font-size: 3pt;
+  opacity: 0.2;
+}
+a#btn_pottermore:hover:after{
+  transform-origin: left top;
+  transform: rotateX(0deg)translateY(0%);
+  opacity: 1;
+  font-size: 20pt;
+ text-transform: uppercase;
+ content: "Pottermore ";  font-family: Edu TAS Beginner;
+}
+a#btn_pottermore img{
+  opacity: 1;
+  transition: all 2s;
+  transform-style: preserve-3d;
+}
+a#btn_pottermore:hover img{
+  transform-origin: center top;
+  transform: rotateX(90deg) translateY(100%);
+  opacity: .2;
+ 
+}
+
+a#btn_tesla{
+  display: block;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 106px;
+  color: #E31937;  
+  padding: 10px 40px;  
+  overflow:hidden;
+  transition: all .3s;
+}
+a#btn_tesla:before {
+  font-family: FontAwesome;
+  content:"\f5e4";
+  position: absolute;
+  top: 11px;
+  left: -30px;
+  transition: all 300ms ease;
+}
+a#btn_tesla:hover::before{
+  left: 220px;
+  }
+
+
+a#btn_tesla:hover{
+  transform: skew(-20deg);
+}
+
+a#btn_hsn{
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-top: -16px;
+  margin-left: -17px;
+  border-radius: 100px;
+text-decoration: none;
+  z-index: 1;
+  position: relative;
+  left: 30%;
+  bottom: -30%;
+  font-size: 40px;
+  color: white;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+  background-image: linear-gradient(to top, #0797D6, #0060AD,#BBFAFF );
+}
+a#btn_hsn:hover{
+  animation: bounce 1s;
+}
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+a#btn_hsn span{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+a#btn_npr{
+  display: block;
+  height: 100px;
+  box-sizing: border-box;
+  opacity:0.5;
+  margin-top: 94px;
+  filter: invert(100%);
+
+  transition: all .8s;
+}
+a#btn_npr:hover{
+  opacity:1;
+  filter: invert(0%);
+}
