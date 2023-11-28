@@ -8,13 +8,13 @@ body {
   }
     
  .logo {
-   font-family: amandine, sans-serif;
-   font-style: normal;
-   font-weight: 300;
-   font-size: 40px;
-   margin: 0;
-   color: #ffffff;
-   text-decoration: none;
+    font-family: amandine, sans-serif;
+    font-style: normal;
+     font-weight: 300;
+    font-size: 40px;
+     margin: 0;
+     color: #ffffff;
+    text-decoration: none;
 
     }
   ul.nav {
@@ -333,11 +333,11 @@ background-size: 3000px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
