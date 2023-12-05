@@ -243,6 +243,44 @@ body {
   margin-right: 5%;
 }
 }
+@media (max-height: 860px){  
+  .home{
+    background-image: none;
+
+    background-size: 900px;
+
+  }
+  .img_intro {
+  display: block;
+  border: outset black;
+  width: 400px;
+  height: auto;
+  /* aspect-ratio: 1/1; */
+
+margin-left: auto;
+margin-right: auto;
+  margin-top: 50px;
+  background-color: #ff7c7c;
+}
+
+.intro h1 {
+padding-top: 0px;
+margin-top: 0px;
+font-size: 40pt;
+text-align: center;
+padding-bottom: 10px;
+}
+.intro p{
+padding: 0%;
+font-size: 15pt;
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+.intro{
+margin: 0;
+}
+}
 @media (max-width: 400px){
 
   .img_intro {
@@ -666,7 +704,7 @@ margin: 0;
     font-size: 30px; 
     color: rgb(255, 255, 255);
    
-    margin-left:372%;
+    margin-left:150px;
    padding-bottom: 0px;
     border: none;
     cursor: pointer;
