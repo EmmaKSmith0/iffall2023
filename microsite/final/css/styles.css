@@ -265,7 +265,7 @@ margin-right: auto;
 
 .intro h1 {
 padding-top: 0px;
-margin-top: 0px;
+margin-top: 4%;
 font-size: 40pt;
 text-align: center;
 padding-bottom: 10px;
@@ -703,8 +703,6 @@ margin: 0;
 
     font-size: 30px; 
     color: rgb(255, 255, 255);
-   
-    margin-left:150px;
    padding-bottom: 0px;
     border: none;
     cursor: pointer;
@@ -809,6 +807,12 @@ margin-left: 5%;
       opacity: 0.2;
       width: 0;
     } 
+    @media screen and (max-width: 1290px){
+      .dropbtn{
+        margin-top: -14px
+      }
+      
+    }
     @media(max-width:1000px){
       ul.gallery li{
         width: 25%;
