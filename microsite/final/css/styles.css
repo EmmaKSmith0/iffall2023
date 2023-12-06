@@ -266,7 +266,7 @@ body {
     .img_intro {
       display: block;
       border: outset black;
-      width: 70%;
+      width: 200px;
       height: auto;
       
       /* aspect-ratio: 1/1; */
@@ -324,8 +324,8 @@ body {
   padding: 0%;
   font-size: 12pt;
   text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 18%;
+  margin-right: 18%;
   padding-top: 20px;
   }
   .intro{
@@ -337,23 +337,6 @@ body {
     .img_intro {
       display: block;
       border: outset black;
-      width: 250px;
-      height: auto;
-      /* aspect-ratio: 1/1; */
-  }
-  .intro p{
-    padding: 0%;
-    font-size: 12pt;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 15px;
-}
-  }
-  @media (max-height: 500px){  
-    .img_intro {
-      display: block;
-      border: outset black;
       width: 200px;
       height: auto;
       /* aspect-ratio: 1/1; */
@@ -362,8 +345,8 @@ body {
     padding: 0%;
     font-size: 12pt;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 15px;
 }
   }
